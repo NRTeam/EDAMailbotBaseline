@@ -1,0 +1,16 @@
+wheel
+pandas
+regex
+langdetect
+joblib
+nltk
+HanTa
+numpy
+scikit-learn==0.23.2
+sklearn
+GermaLemma
+matplotlib
+seaborn
+jupyter
+xgboost
+fasttext
