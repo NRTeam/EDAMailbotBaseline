@@ -25,3 +25,27 @@ The data you will receive is equal to the export after cleaning.
 - Save Model & print some graphs 
   - Confusion matrix with the current Classifier (Cross-Validated)
   - Box-Plot with f1 weighted score of different classifiers (XG-Boost, RandomForest, SVC, Perceptron, MultinominalNB, LogisticRegression)
+
+
+Services we currently predict with this model:
+- EDA_ANW_eCollaboration/Intranet EDA
+- EDA_ANW_SAP Services
+- EDA_ANW_SysPeDoc
+- EDA_S_APS_Monitor
+- EDA_S_APS_OS_BasisSW
+- EDA_S_APS_PC
+- EDA_S_APS_Peripherie
+- EDA_S_BA_2FA
+- EDA_S_BA_Account
+- EDA_S_BA_Mailbox
+- EDA_S_BA_UCC_Benutzertelefonie
+- EDA_S_BA_UCC_IVR
+- EDA_S_Benutzerunterstützung
+- EDA_S_Betrieb Übermittlungssysteme
+- EDA_S_Mobile Kommunikation
+- EDA_S_Netzdrucker
+- EDA_S_Order Management
+- EDA_S_Peripheriegeräte
+- EDA_S_Zusätzliche Software
+- EDA_others
+
