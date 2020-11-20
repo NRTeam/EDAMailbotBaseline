@@ -1,7 +1,8 @@
 # Current Model Training for EDA Mailbot
-This repository contains a base line for the FDFA & IPT Pocathon with the ETH. 
+This repository contains a base line for the FDFA, IPT and eestec LC Zurich Pocathon 'Sk[AI] is the limit! Hack it happen'. 
 
-This training consists of following 3 Parts:
+Currently we are using this code to train our model, which predicts services, impact, urgency and incident type of german mails.
+The data you will receive is equal to the export after cleaning.
 
 ## Cleaning
 - Read data from csv
@@ -11,11 +12,10 @@ This training consists of following 3 Parts:
 - Run langdetect and export only german mails
 
 ## Preparation
-- Read data from csv
-- Reduce to relevant columns
-- Remove signatures from Mail-Body
-- Remove control-characters (like New-Line,…) from Mail-Body
-- Run langdetect and export only german mails
+- Concatenate Subject & Mail-Body, tokenize them 
+- Group by Service and balance groups (at the moment for each group 80-100 Mails are taken)
+- Fill up Eda_others 
+- Save incidents sampled/ balanced by service
 
 ## Training
 
